@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* general */
+.container {
+    width: 1330px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+.header{
+    padding: 25px 0;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container .menu,
+.header .container .actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.header .container .menu li a{
+font-style: 13px;
+font-weight: 400;
+color: black;
+ font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+}
+
+.header .container .actions p a .fa-heart {
+    color: red;
+}
+
+.header .container .actions p a .fa-cart-shopping {
+    color: black;
+}
+
+/* hero */
+
+.hero{
+    background-image: url(./images/hero-bg.png);
+    padding: 190px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.hero .container .title{
+    font-size: 43px;
+    font-weight: 400;
+}
+
+.hero .container .subtitle{
+    font-size: 15px;
+    font-weight: 400px;
+    margin: 12px 0 28px;
+}
+
+.hero .container .btn{
+    outline: 0;
+    border: 0;
+    background: 0;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
