@@ -92,3 +92,86 @@ text-transform: uppercase;
     font-weight: 400;
     cursor: pointer;
 }
+
+/* Design */
+
+
+
+.design .container .wrapper .item {
+    text-align: center;
+    }
+    
+    .design .container .wrapper .item img {
+    width: 658px;
+    height: 441px;
+    }
+    
+    .design .container .wrapper .item h3 {
+    font-size: 27px;
+    font-weight: 400;
+    margin: 48px 0 23px; }
+
+    .design .container .wrapper .item .btn {
+    background: 0;
+    border: 0;
+    outline: 0;
+    font-size: 13px;
+    font-weight: 400;
+    }
+
+    /* Products */
+    .products{
+        padding: 100px 0;
+    }
+    
+    
+    .products .container .text-content{
+        text-align: center;
+    }
+    
+    .products .container .text-content .title {
+        font-size: 33px;
+        font-weight: 400;
+    }
+    
+    .products .container .text-content .subtitle {
+        font-size: 15px;
+        color: gray;
+        margin: 16px 0 4px;
+    }
+    
+    .products .container .text-content .dots {
+        display: flex;
+        align-items: center;
+     justify-content: center;
+     gap: 16px;
+    }
+    
+    .products .container .text-content .dots li {
+        width: 7px;
+        height: 7px;
+        background: black;
+    }
+    
+    .products .container .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+    }
+    
+    .products .container .wrapper .card .image-block img{
+        width: 310px;
+        height: 434px;
+    }
+    
+    .products .container .wrapper .card .name{
+        font-size: 13px;
+     color: gray;
+     margin: 22px 0 5px;
+    }
+    
+    .products .container .wrapper .card .price{
+        font-size: 12px;
+        color: grey;
+    }
