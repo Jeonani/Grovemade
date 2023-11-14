@@ -95,83 +95,280 @@ text-transform: uppercase;
 
 /* Design */
 
-
-
-.design .container .wrapper .item {
+.design .container .text-content{
     text-align: center;
-    }
-    
-    .design .container .wrapper .item img {
+    margin: 80px 0;
+}
+
+.design .container .text-content .title{
+    font: 43px;
+    font-weight: 400;
+}
+
+.design .container .text-content .subtitle{
+    font-size: 14px;
+    color: #a0a0a0;
+    margin: 23px 0 26px;
+}
+
+.design .container .text-content .btn{
+    background: 0;
+    border: 0;
+    outline: 0;
+    color: black;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.design .container .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.design .container .wrapper .item{
+    text-align: center;
+}
+
+.design .container .wrapper .item img{
     width: 658px;
     height: 441px;
-    }
-    
-    .design .container .wrapper .item h3 {
+}
+
+.design .container .wrapper .item h3{
     font-size: 27px;
     font-weight: 400;
-    margin: 48px 0 23px; }
+    margin: 48px 0 23px;
+}
 
-    .design .container .wrapper .item .btn {
+.design .container .wrapper .item .btn{
     background: 0;
     border: 0;
     outline: 0;
     font-size: 13px;
     font-weight: 400;
-    }
+}
 
-    /* Products */
-    .products{
-        padding: 100px 0;
-    }
-    
-    
-    .products .container .text-content{
-        text-align: center;
-    }
-    
-    .products .container .text-content .title {
-        font-size: 33px;
-        font-weight: 400;
-    }
-    
-    .products .container .text-content .subtitle {
-        font-size: 15px;
-        color: gray;
-        margin: 16px 0 4px;
-    }
-    
-    .products .container .text-content .dots {
-        display: flex;
-        align-items: center;
-     justify-content: center;
-     gap: 16px;
-    }
-    
-    .products .container .text-content .dots li {
-        width: 7px;
-        height: 7px;
-        background: black;
-    }
-    
-    .products .container .wrapper{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 20px;
-    }
-    
-    .products .container .wrapper .card .image-block img{
-        width: 310px;
-        height: 434px;
-    }
-    
-    .products .container .wrapper .card .name{
-        font-size: 13px;
-     color: gray;
-     margin: 22px 0 5px;
-    }
-    
-    .products .container .wrapper .card .price{
-        font-size: 12px;
-        color: grey;
-    }
+/* Products */
+
+.products{
+    padding: 100px 0;
+}
+
+.products .container .text-content{
+    text-align: center;
+}
+
+.products .container .text-content .title{
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.products .container .text-content .subtitle{
+    font-size: 15px;
+    color: #a0a0a0;
+    margin: 16px 0 40px;
+}
+
+.products .container .text-content .dots{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 16px;
+}
+
+.products .container .text-content .dots .li{
+    width: 7px;
+    height: 7px;
+    background: black;
+}
+
+.products .container .wrapper{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.products .container .wrapper .card .image-block img{
+    width: 313px;
+    height: 434px;
+}
+
+.products .container .wrapper .card .name{
+    font-size: 13px;
+    color: #a0a0a0;
+    margin: 22px 0 5px;
+}
+
+.products .container .wrapper .card .price{
+    font-size: 12px;
+    color: #a0a0a0;
+}
+
+/* Office */
+
+.office{
+background: url(images/backlap.png) no-repeat center / cover;
+padding: 181px 0;
+text-align: center;
+color: #ffffff;
+}
+
+.office .container .text-content .title{
+font-size: 66px;
+font-weight: 400;
+}
+
+.office .container .text-content .subtitle{
+font-size: 14px;
+font-weight: 400;
+margin: 15px 0 30px;
+}
+
+.office .container .text-content .btn{
+border: 0;
+outline: 0;
+background: 0;
+color: #ffffff;
+cursor: pointer;
+font-size: 13px;
+font-weight: 400;
+}
+
+/* Way */
+
+.way{
+    margin: 120px 0 40px;
+    text-align: center;
+}
+
+.way .container .text-content .title {
+font-size: 34px;
+font-weight: 400;
+}
+
+.way .container .text-content .subtitle {
+font-size: 16px;
+font-weight: 400;
+color: #a0a0a0;
+margin: 23px auto;
+width: 777px;
+}
+
+/* Inspires */
+
+.inspires .container{
+    background: #9AA8B1;
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.inspires .container .text-content h1{
+    margin: 24px 0 23px;
+}
+
+/* Staff */
+
+.staff .container .title {
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.staff .container .subtitle{
+    width: 789px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a0a0a0;
+    text-align: center;
+    margin: 23px auto 79px;
+}
+
+/* Img */
+
+.staff .img{
+    width: 1360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px 25px;
+    margin: 0 auto;
+}
+
+.staff .container .text-content{
+    margin-top: 100px;
+}
+
+/* Footer */
+.footer{
+    margin-top: 40px;
+    background: #f9f9f9;
+    padding-bottom: 28px;
+}
+
+.footer .container .up{
+    width: 82px;
+    height: 82px;
+    background: black;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.footer .container .content .links li{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.footer .container .content .newsletter h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.footer .container .content .newsletter p{
+    font-size: 14px;
+    color: #a0a0a0;
+    width: 323px;
+    margin: 23px 0 92px;
+}
+
+.footer .container .content{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.footer .container .content .newsletter .line{
+    width: 282px;
+    height: 1px;
+    background: black;
+}
+
+
+.footer .container .copyrights li{
+    font-size: 13px;
+    font-weight: 400;
+    color: #707a7f;
+    cursor: pointer;
+}
+
+.footer .container .copyrights li:hover{
+    color: black;
+}
+
+.footer .container .copyrights{
+    margin-top: 29px;
+    display: flex;
+    justify-content: flex-end;
+}
